@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin: auto;
+}
+
+header>h1 {
+    margin-bottom: 1.2rem;
+    text-decoration: underline;
+    padding: 1rem;
+    margin-top: 2rem;
+    font-size: 40px;
+}
+
+#_clock {
+    background-color: rgb(43, 46, 49);
+    padding: 1.5rem;
+    width: 60%;
+    color: white;
+    border-radius: 5px;
+}
+
+p.clock-item {
+    font-size: 35px;
+}
+
+.date,
+.time {
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+}
